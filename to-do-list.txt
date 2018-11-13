@@ -1,0 +1,36 @@
+*----TO--DO--LIST--&--SUGGESTIONS----*
+
+
+
+*--DONE--*											*--DATE--DONE--*
+	Take out Jokers at the beginning							Oct 2018
+		-Jokers can't hit or pitch							Oct 2018
+	Make starting decks even								Oct 2018
+	Take out Aces at the beginning								Oct 2018
+	Make Aces provide an out for the pitcher						Oct-Nov 2018
+	Make 2's double batter and pitcher values when played					Oct 2018
+	Make 3's have the ability to refresh all three cards in your hand			Nov 2018
+		-Works even if 3 is in the lineup						Nov 2018
+	Make 5's have the ability to walk if (pitcher total - batter total < 5)			Nov 2018
+	Decrease pitcher value every time through the lineup					Nov 2018
+		-Player can replace pitcher after two times through the lineup			Nov 2018
+			-As of now, pitcher is replaced with card value 10 or greater		Nov 2018
+
+
+*--TO--DO--*
+	Any Aces played are out-of-play until another ace is played
+	Possible mound visit for 6's
+	Enable Aces for double-plays
+		-if the original out is a multiple of:
+			2: 2nd to 1st double-play
+			3: 3rd to 1st double-play
+			2 & 3: 3rd t0 2nd double-play
+	Figure out possible ability for 7's
+	Figure out possible ability for 4's
+
+*--RECALLED--SUGGESTIONS--*
+	Cap pitcher at a Queen
+	Make Aces provide walks for the batter
+	Give different card values different situational bonuses
+	Add 10 to 4's if they are in play and the batter total is lower than the pitcher's
+	Make 5's have the ability to walk if (pitcher total - batter total <= 5)
