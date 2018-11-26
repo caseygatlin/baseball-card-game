@@ -8,7 +8,7 @@ Game Details
 ------------
 
 In the card game, two players play through a baseball game using one deck of playing cards (including Jokers).
-Each player receives half of the deck (one player gets all black cards, the other gets all red) and, after shuffling, is able to draw cards and assign 9 cards for their lineup and 1 card for their pitcher, who does not bat. Each player also has a hand of 3 cards from which to play, picking up and discarding cards approprately. Each card is given a value from 1 (Ace) to 13 (King) and Jokers receive a value of 14.
+Each player receives half of the deck (one player gets all black cards, the other gets all red) and, after shuffling, is able to draw cards and assign 9 cards for their lineup and 1 card for their pitcher, who does not bat. Each player also has a hand of 3 cards from which to play, picking up and discarding cards appropriately. Each card is given a value from 1 (Ace) to 13 (King) and Jokers receive a value of 14.
 
 Outs, hits, and walks are decided based on adding the value of the card played from the hand to the card currently active on the field.
 For the batter, this is whoever is currently batting. For the pitcher, it is the current pitcher.
