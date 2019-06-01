@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C95187F622A26B71006926F7 /* Card.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C95187F522A26B71006926F7 /* Card.cpp */; };
 		C98B9B692170674B00D60DD8 /* Results.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C98B9B682170674B00D60DD8 /* Results.cpp */; };
 		C9C8DDA7217532F7003A7EED /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9C8DDA6217532F7003A7EED /* Player.cpp */; };
 		C9C8DDA921755A06003A7EED /* BoxScore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9C8DDA821755A06003A7EED /* BoxScore.cpp */; };
@@ -28,11 +29,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C95187F222A2696F006926F7 /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		C95187F322A26A6B006926F7 /* Globals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Globals.h; sourceTree = "<group>"; };
+		C95187F422A26A8A006926F7 /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		C95187F522A26B71006926F7 /* Card.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Card.cpp; sourceTree = "<group>"; };
 		C98B9B682170674B00D60DD8 /* Results.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Results.cpp; sourceTree = "<group>"; };
 		C9C8DDA6217532F7003A7EED /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
 		C9C8DDA821755A06003A7EED /* BoxScore.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BoxScore.cpp; sourceTree = "<group>"; };
 		C9C8DDAA2175BC90003A7EED /* CardDeck.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CardDeck.cpp; sourceTree = "<group>"; };
-		C9FD16B72154B34F008346B5 /* BaseballGameTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BaseballGameTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9FD16B72154B34F008346B5 /* BaseballGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BaseballGame; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9FD16BA2154B34F008346B5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C9FD16C321597F1D008346B5 /* GameClasses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameClasses.h; sourceTree = "<group>"; };
 		C9FD16C7215982B4008346B5 /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
@@ -53,7 +58,7 @@
 		C9FD16AE2154B34F008346B5 = {
 			isa = PBXGroup;
 			children = (
-				C9FD16B92154B34F008346B5 /* BaseballGameTest */,
+				C9FD16B92154B34F008346B5 /* BaseballGame */,
 				C9FD16B82154B34F008346B5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,16 +66,20 @@
 		C9FD16B82154B34F008346B5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C9FD16B72154B34F008346B5 /* BaseballGameTest */,
+				C9FD16B72154B34F008346B5 /* BaseballGame */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C9FD16B92154B34F008346B5 /* BaseballGameTest */ = {
+		C9FD16B92154B34F008346B5 /* BaseballGame */ = {
 			isa = PBXGroup;
 			children = (
 				C9FD16BA2154B34F008346B5 /* main.cpp */,
 				C9FD16C321597F1D008346B5 /* GameClasses.h */,
+				C95187F322A26A6B006926F7 /* Globals.h */,
+				C95187F422A26A8A006926F7 /* Card.h */,
+				C95187F522A26B71006926F7 /* Card.cpp */,
+				C95187F222A2696F006926F7 /* Player.h */,
 				C9C8DDAA2175BC90003A7EED /* CardDeck.cpp */,
 				C98B9B682170674B00D60DD8 /* Results.cpp */,
 				C9FD16CA215982D3008346B5 /* Game.h */,
@@ -78,15 +87,15 @@
 				C9C8DDA6217532F7003A7EED /* Player.cpp */,
 				C9C8DDA821755A06003A7EED /* BoxScore.cpp */,
 			);
-			path = BaseballGameTest;
+			path = BaseballGame;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C9FD16B62154B34F008346B5 /* BaseballGameTest */ = {
+		C9FD16B62154B34F008346B5 /* BaseballGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C9FD16BE2154B34F008346B5 /* Build configuration list for PBXNativeTarget "BaseballGameTest" */;
+			buildConfigurationList = C9FD16BE2154B34F008346B5 /* Build configuration list for PBXNativeTarget "BaseballGame" */;
 			buildPhases = (
 				C9FD16B32154B34F008346B5 /* Sources */,
 				C9FD16B42154B34F008346B5 /* Frameworks */,
@@ -96,9 +105,9 @@
 			);
 			dependencies = (
 			);
-			name = BaseballGameTest;
+			name = BaseballGame;
 			productName = BaseballGameTest;
-			productReference = C9FD16B72154B34F008346B5 /* BaseballGameTest */;
+			productReference = C9FD16B72154B34F008346B5 /* BaseballGame */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -115,7 +124,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C9FD16B22154B34F008346B5 /* Build configuration list for PBXProject "BaseballGameTest" */;
+			buildConfigurationList = C9FD16B22154B34F008346B5 /* Build configuration list for PBXProject "BaseballGame" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,7 +136,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C9FD16B62154B34F008346B5 /* BaseballGameTest */,
+				C9FD16B62154B34F008346B5 /* BaseballGame */,
 			);
 		};
 /* End PBXProject section */
@@ -143,6 +152,7 @@
 				C98B9B692170674B00D60DD8 /* Results.cpp in Sources */,
 				C9C8DDA921755A06003A7EED /* BoxScore.cpp in Sources */,
 				C9C8DDA7217532F7003A7EED /* Player.cpp in Sources */,
+				C95187F622A26B71006926F7 /* Card.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +289,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C9FD16B22154B34F008346B5 /* Build configuration list for PBXProject "BaseballGameTest" */ = {
+		C9FD16B22154B34F008346B5 /* Build configuration list for PBXProject "BaseballGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C9FD16BC2154B34F008346B5 /* Debug */,
@@ -288,7 +298,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C9FD16BE2154B34F008346B5 /* Build configuration list for PBXNativeTarget "BaseballGameTest" */ = {
+		C9FD16BE2154B34F008346B5 /* Build configuration list for PBXNativeTarget "BaseballGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C9FD16BF2154B34F008346B5 /* Debug */,

@@ -13,12 +13,8 @@
  * Created by Casey Gatlin on 9/20/18.
  * Copyright © 2018 Casey Gatlin. All rights reserved.
  */
-
-#include <iostream>
 #include "Game.h"
 #include "GameClasses.h"
-
-using namespace std;
 
 
 
