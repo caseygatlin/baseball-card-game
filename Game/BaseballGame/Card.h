@@ -23,17 +23,14 @@ public:
     int getValue();
     Suit getSuit();
     CardName getName();
-    bool getReadyToMove();
     
     //Mutators
-    void setReadyToMove(bool isReady);
     void decreaseValue();
     
 private:
     int m_cardValue;
     CardName m_cardName;
     Suit m_cardSuit;
-    bool m_readyToMove; //Checked when transfering cards between CardGroups
 };
 
 #endif /* Card_h */
