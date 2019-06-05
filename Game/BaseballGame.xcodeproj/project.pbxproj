@@ -12,6 +12,7 @@
 		C95187FF22A2EA05006926F7 /* CardGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C95187FE22A2EA05006926F7 /* CardGroup.cpp */; };
 		C951880422A4FDEA006926F7 /* LinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C951880322A4FDEA006926F7 /* LinkedList.cpp */; };
 		C951880822A4FE91006926F7 /* HashTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C951880722A4FE91006926F7 /* HashTable.cpp */; };
+		C951882022A7AE28006926F7 /* CardStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C951881F22A7AE28006926F7 /* CardStack.cpp */; };
 		C98B9B692170674B00D60DD8 /* Results.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C98B9B682170674B00D60DD8 /* Results.cpp */; };
 		C9C8DDA7217532F7003A7EED /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9C8DDA6217532F7003A7EED /* Player.cpp */; };
 		C9C8DDA921755A06003A7EED /* BoxScore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9C8DDA821755A06003A7EED /* BoxScore.cpp */; };
@@ -45,6 +46,8 @@
 		C951880522A4FE0C006926F7 /* LinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
 		C951880622A4FE5D006926F7 /* HashTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HashTable.h; sourceTree = "<group>"; };
 		C951880722A4FE91006926F7 /* HashTable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HashTable.cpp; sourceTree = "<group>"; };
+		C951881F22A7AE28006926F7 /* CardStack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CardStack.cpp; sourceTree = "<group>"; };
+		C951882122A7AE38006926F7 /* CardStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardStack.h; sourceTree = "<group>"; };
 		C98B9B682170674B00D60DD8 /* Results.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Results.cpp; sourceTree = "<group>"; };
 		C9C8DDA6217532F7003A7EED /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
 		C9C8DDA821755A06003A7EED /* BoxScore.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BoxScore.cpp; sourceTree = "<group>"; };
@@ -94,6 +97,8 @@
 				C951880622A4FE5D006926F7 /* HashTable.h */,
 				C951880722A4FE91006926F7 /* HashTable.cpp */,
 				C951880522A4FE0C006926F7 /* LinkedList.h */,
+				C951882122A7AE38006926F7 /* CardStack.h */,
+				C951881F22A7AE28006926F7 /* CardStack.cpp */,
 				C951880322A4FDEA006926F7 /* LinkedList.cpp */,
 				C9FD16C321597F1D008346B5 /* GameClasses.h */,
 				C95187F322A26A6B006926F7 /* Globals.h */,
@@ -172,6 +177,7 @@
 				C9C8DDAB2175BC90003A7EED /* CardDeck.cpp in Sources */,
 				C95187FC22A2E46E006926F7 /* Pitcher.cpp in Sources */,
 				C951880422A4FDEA006926F7 /* LinkedList.cpp in Sources */,
+				C951882022A7AE28006926F7 /* CardStack.cpp in Sources */,
 				C98B9B692170674B00D60DD8 /* Results.cpp in Sources */,
 				C9C8DDA921755A06003A7EED /* BoxScore.cpp in Sources */,
 				C9C8DDA7217532F7003A7EED /* Player.cpp in Sources */,
