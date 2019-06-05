@@ -39,5 +39,9 @@ bool HashTable::removeCard(CardName cardName, Card &cardVariable)
     
     m_elements[index].items.removeItem(cardVariable);
     m_numElements--;
+    
+    if (m_elements[index].items.isEmpty())
+        m_elements[index].hasElement = false;
+    
     return true;
 }
