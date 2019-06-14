@@ -10,12 +10,12 @@
 #define Pitcher_h
 
 #include "Globals.h"
-#include "CardGroup.h"
+#include "Card.h"
 
 // The Pitcher class
 // Players can change pitchers, and pitchers can become
 // fatigued (lose value) over time
-class Pitcher : public CardGroup
+class Pitcher
 {
 public:
     //Constructor
@@ -25,9 +25,11 @@ public:
     int getInningsPitched();
     int getThroughLineup();
     int getPitcherVal();
+    bool hasPitcher();
     
     //Inserting / Deleting
     void addPitcher(Card &cardToAdd);
+    bool removePitcher(Card &cardVar);
     
     //Mutators
     void goneThruLineup();
@@ -36,9 +38,8 @@ public:
 private:
     int m_inningsPitched;
     int m_timesThroughLineup;
-    CardName m_cardName;
-    Suit m_suit;
-    int m_val;
+    Card m_pitcherCard[1];
+    bool m_hasPitcher;
 };
 
 #endif /* Pitcher_h */

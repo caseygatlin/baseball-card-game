@@ -15,13 +15,15 @@
  */
 #include "Game.h"
 #include "GameClasses.h"
+#include <iostream>
+
 using namespace std;
 
 
 int main()
 {
 
-    
+    /*
     int allGames = 5000;
     Results results = Results();
     results.setNumberOfGames(allGames);
@@ -57,6 +59,9 @@ int main()
     }
     
     results.displayResults();
+     */
+    
+    
     
     
     return 0;

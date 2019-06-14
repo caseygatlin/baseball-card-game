@@ -9,9 +9,10 @@
 #include "Pitcher.h"
 
 // Constructor -----------
-Pitcher::Pitcher() : CardGroup(), m_inningsPitched(0), m_timesThroughLineup(0),
-m_cardName(NONAME), m_suit(NOSUIT), m_val(0)
+Pitcher::Pitcher()
 {
+    m_inningsPitched = m_timesThroughLineup = 0;
+    m_hasPitcher = false;
 }
 
 // Accessors -------------
@@ -27,21 +28,37 @@ int Pitcher::getThroughLineup()
 
 int Pitcher::getPitcherVal()
 {
-    return m_val;
+    return m_pitcherCard[0].getValue();
+}
+
+bool Pitcher::hasPitcher()
+{
+    return m_hasPitcher;
 }
 
 void Pitcher::addPitcher(Card &cardToAdd)
 {
-    addCard(cardToAdd);
-    m_cardName = cardToAdd.getName();
-    m_suit = cardToAdd.getSuit();
-    m_val = cardToAdd.getValue();
+    if (m_hasPitcher)
+        return; //Note: implement assert
+    
+    m_pitcherCard[0] = cardToAdd;
+    m_hasPitcher = true;
+}
+
+bool Pitcher::removePitcher(Card &cardVar)
+{
+    if (!m_hasPitcher)
+        return false;
+    
+    cardVar = m_pitcherCard[0];
+    m_hasPitcher = false;
+    return true;
 }
 
 // Mutators -------------
 void Pitcher::goneThruLineup()
 {
-    m_val--;
+    m_pitcherCard[0].decreaseValue();
     m_timesThroughLineup++;
 }
 

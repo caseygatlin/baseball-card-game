@@ -1,25 +1,26 @@
 //
-//  CardGroup.cpp
+//  Hand.cpp
 //  BaseballGame
 //
-//  Created by Casey Gatlin on 6/1/19.
+//  Created by Casey Gatlin on 6/6/19.
 //  Copyright © 2019 Casey Gatlin. All rights reserved.
 //
 
-#include "CardGroup.h"
+#include "Hand.h"
+#include "Card.h"
+#include "Globals.h"
 
-int Hand::::getSize()
+int Hand::size()
 {
     return m_cards.getNumElements();
 }
 
-void Hand::::addCard(Card &cardToAdd)
+void Hand::addCard(Card &cardToAdd)
 {
     m_cards.insertCard(cardToAdd);
 }
 
-bool Hand::::removeCard(CardName cardName, Card &cardVariable)
+bool Hand::removeCard(CardName cardName, Card &cardVariable)
 {
     return m_cards.removeCard(cardName, cardVariable);
 }
-

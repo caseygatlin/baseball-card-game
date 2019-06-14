@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		C95187F622A26B71006926F7 /* Card.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C95187F522A26B71006926F7 /* Card.cpp */; };
 		C95187FC22A2E46E006926F7 /* Pitcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C95187FB22A2E46E006926F7 /* Pitcher.cpp */; };
-		C95187FF22A2EA05006926F7 /* CardGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C95187FE22A2EA05006926F7 /* CardGroup.cpp */; };
 		C951880422A4FDEA006926F7 /* LinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C951880322A4FDEA006926F7 /* LinkedList.cpp */; };
 		C951880822A4FE91006926F7 /* HashTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C951880722A4FE91006926F7 /* HashTable.cpp */; };
 		C951882022A7AE28006926F7 /* CardStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C951881F22A7AE28006926F7 /* CardStack.cpp */; };
+		C951882422A9E18B006926F7 /* Hand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C951882322A9E18B006926F7 /* Hand.cpp */; };
+		C951882922A9E706006926F7 /* Lineup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C951882822A9E706006926F7 /* Lineup.cpp */; };
 		C98B9B692170674B00D60DD8 /* Results.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C98B9B682170674B00D60DD8 /* Results.cpp */; };
 		C9C8DDA7217532F7003A7EED /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9C8DDA6217532F7003A7EED /* Player.cpp */; };
 		C9C8DDA921755A06003A7EED /* BoxScore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9C8DDA821755A06003A7EED /* BoxScore.cpp */; };
@@ -40,14 +41,16 @@
 		C95187F522A26B71006926F7 /* Card.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Card.cpp; sourceTree = "<group>"; };
 		C95187FA22A2E451006926F7 /* Pitcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pitcher.h; sourceTree = "<group>"; };
 		C95187FB22A2E46E006926F7 /* Pitcher.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Pitcher.cpp; sourceTree = "<group>"; };
-		C95187FD22A2E926006926F7 /* CardGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardGroup.h; sourceTree = "<group>"; };
-		C95187FE22A2EA05006926F7 /* CardGroup.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CardGroup.cpp; sourceTree = "<group>"; };
 		C951880322A4FDEA006926F7 /* LinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedList.cpp; sourceTree = "<group>"; };
 		C951880522A4FE0C006926F7 /* LinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
 		C951880622A4FE5D006926F7 /* HashTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HashTable.h; sourceTree = "<group>"; };
 		C951880722A4FE91006926F7 /* HashTable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HashTable.cpp; sourceTree = "<group>"; };
 		C951881F22A7AE28006926F7 /* CardStack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CardStack.cpp; sourceTree = "<group>"; };
 		C951882122A7AE38006926F7 /* CardStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardStack.h; sourceTree = "<group>"; };
+		C951882222A9E15A006926F7 /* Hand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hand.h; sourceTree = "<group>"; };
+		C951882322A9E18B006926F7 /* Hand.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Hand.cpp; sourceTree = "<group>"; };
+		C951882722A9E6ED006926F7 /* Lineup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lineup.h; sourceTree = "<group>"; };
+		C951882822A9E706006926F7 /* Lineup.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Lineup.cpp; sourceTree = "<group>"; };
 		C98B9B682170674B00D60DD8 /* Results.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Results.cpp; sourceTree = "<group>"; };
 		C9C8DDA6217532F7003A7EED /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
 		C9C8DDA821755A06003A7EED /* BoxScore.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BoxScore.cpp; sourceTree = "<group>"; };
@@ -89,27 +92,29 @@
 		C9FD16B92154B34F008346B5 /* BaseballGame */ = {
 			isa = PBXGroup;
 			children = (
-				C9FD16BA2154B34F008346B5 /* main.cpp */,
-				C95187FA22A2E451006926F7 /* Pitcher.h */,
-				C95187FB22A2E46E006926F7 /* Pitcher.cpp */,
-				C95187FD22A2E926006926F7 /* CardGroup.h */,
-				C95187FE22A2EA05006926F7 /* CardGroup.cpp */,
-				C951880622A4FE5D006926F7 /* HashTable.h */,
-				C951880722A4FE91006926F7 /* HashTable.cpp */,
-				C951880522A4FE0C006926F7 /* LinkedList.h */,
-				C951882122A7AE38006926F7 /* CardStack.h */,
-				C951881F22A7AE28006926F7 /* CardStack.cpp */,
-				C951880322A4FDEA006926F7 /* LinkedList.cpp */,
-				C9FD16C321597F1D008346B5 /* GameClasses.h */,
 				C95187F322A26A6B006926F7 /* Globals.h */,
 				C95187F422A26A8A006926F7 /* Card.h */,
 				C95187F522A26B71006926F7 /* Card.cpp */,
+				C95187FA22A2E451006926F7 /* Pitcher.h */,
+				C95187FB22A2E46E006926F7 /* Pitcher.cpp */,
+				C951882722A9E6ED006926F7 /* Lineup.h */,
+				C951882822A9E706006926F7 /* Lineup.cpp */,
+				C951882222A9E15A006926F7 /* Hand.h */,
+				C951882322A9E18B006926F7 /* Hand.cpp */,
+				C951880622A4FE5D006926F7 /* HashTable.h */,
+				C951880722A4FE91006926F7 /* HashTable.cpp */,
+				C951880522A4FE0C006926F7 /* LinkedList.h */,
+				C951880322A4FDEA006926F7 /* LinkedList.cpp */,
+				C951882122A7AE38006926F7 /* CardStack.h */,
+				C951881F22A7AE28006926F7 /* CardStack.cpp */,
+				C9FD16BA2154B34F008346B5 /* main.cpp */,
 				C95187F222A2696F006926F7 /* Player.h */,
 				C9C8DDAA2175BC90003A7EED /* CardDeck.cpp */,
 				C98B9B682170674B00D60DD8 /* Results.cpp */,
 				C9FD16CA215982D3008346B5 /* Game.h */,
 				C9FD16C7215982B4008346B5 /* Game.cpp */,
 				C9C8DDA6217532F7003A7EED /* Player.cpp */,
+				C9FD16C321597F1D008346B5 /* GameClasses.h */,
 				C9C8DDA821755A06003A7EED /* BoxScore.cpp */,
 			);
 			path = BaseballGame;
@@ -172,13 +177,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9FD16C9215982B4008346B5 /* Game.cpp in Sources */,
-				C95187FF22A2EA05006926F7 /* CardGroup.cpp in Sources */,
 				C9FD16BB2154B34F008346B5 /* main.cpp in Sources */,
 				C9C8DDAB2175BC90003A7EED /* CardDeck.cpp in Sources */,
 				C95187FC22A2E46E006926F7 /* Pitcher.cpp in Sources */,
 				C951880422A4FDEA006926F7 /* LinkedList.cpp in Sources */,
 				C951882022A7AE28006926F7 /* CardStack.cpp in Sources */,
 				C98B9B692170674B00D60DD8 /* Results.cpp in Sources */,
+				C951882922A9E706006926F7 /* Lineup.cpp in Sources */,
+				C951882422A9E18B006926F7 /* Hand.cpp in Sources */,
 				C9C8DDA921755A06003A7EED /* BoxScore.cpp in Sources */,
 				C9C8DDA7217532F7003A7EED /* Player.cpp in Sources */,
 				C951880822A4FE91006926F7 /* HashTable.cpp in Sources */,
